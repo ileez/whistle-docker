@@ -2,10 +2,10 @@
 FROM alpine:latest
 MAINTAINER ilee
 
-ENV version=1.10.1
+ENV version=1.10.2
 
 RUN set -ex && \
-    sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories && \
+#    sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories && \
     apk update && \
     apk upgrade && \
     apk add --no-cache bash && \
