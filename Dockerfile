@@ -2,7 +2,7 @@
 FROM alpine:latest
 MAINTAINER ilee
 
-ENV version=1.10.6
+ENV version=1.10.7
 
 RUN set -ex && \
 #    sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories && \
